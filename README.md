@@ -1,5 +1,7 @@
 # Alpha - HTML5 UP
 
+file:///C:/tailwind-alpha-main/tailwind-alpha-main/index.html
+
 ## Overview:
 
 The HTML file represents a simple and responsive website template named "Alpha," created by HTML5 UP. The template is designed for 
