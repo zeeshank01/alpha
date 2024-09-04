@@ -1,6 +1,4 @@
-# Alpha - HTML5 UP
-
-file:///C:/tailwind-alpha-main/tailwind-alpha-main/index.html
+# Alpha - HTML5 UP 
 
 ## Overview:
 
