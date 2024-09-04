@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha | HTML5 UP</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="cursor-default bg-[#f5f5f5]">
+    <div class="bg-cover max-w-screen-xl sm:h-[26rem]" style="background-image: url(images/backgroundimg.jpg);">
+       <!--Header-->
+        <div class="flex justify-between">
+            <p class="hidden text-xs font-extralight text-white 
+            mx-7 my-3 md:inline lg:inline">
+            <span class="font-medium">Alpha</span>
+             by HTML5 UP</p>
+            <div class="text-xs my-2 mr-6 justify-items-end text-white font-normal hidden md:inline lg:inline">
+                <ul class="flex">
+                    <li class="mx-2 my-1 cursor-pointer">Home</li>
+                    <div class="relative group">
+                        <!-- Dropdown Trigger -->
+                        <li class="mx-2 my-1 cursor-pointer"> <i class="fa fa-angle-down mx-1" aria-hidden="true"></i>Layouts</li>
+                        <!-- Dropdown Content -->
+                        <div class="absolute hidden bg-[#fefefe] shadow-md mt-2 rounded-md group-hover:block">
+                          <a href="#" class="block px-8 py-2 text-gray-500 border border-transparent border-b-gray-300 ">generic</a>
+                          <a href="#" class="block px-8 py-2 text-gray-500 border border-transparent border-b-gray-300 ">contact</a>
+                          <a href="#" class="block px-8 py-2 text-gray-500 border border-transparent border-b-gray-300 ">Elements</a>
+                          <a href="#" class="block px-8 py-2 text-gray-500">Submenu</a>
+                        </div>
+                      </div>
+                      
+                    <li class="border-2 border-[#d4cecd] rounded-md cursor-pointer px-2 py-1 mx-1">Sign up</li>
+                </ul>
+            </div>
+       </div>
+       <div class="my-2 fixed z-10" onclick="openMenu()">
+        <i class="fa fa-bars inline md:hidden lg:hidden mx-2 text-md text-white bg-[#d0d0d0]/45 px-3.5 py-1.5 rounded-md" 
+        aria-hidden="true"></i>
+       </div>
+       <div class="hidden bg-[#2b2b2b] fixed z-20 top-0 h-[100%] pb-11 transition-opacity ease-in-out duration-500" id="menubar">
+        <ul class="divide-y divide-[#363636] text-white font-light text-xs space-y-2">
+            <button class="pl-4 pt-2 pr-28" onclick="closeMenu()">Close<i class="fa fa-times mx-2" aria-hidden="true"></i></button>
+            <li class="pl-4 pt-2">Home</li>
+            <li class="pl-4 pt-2">Layouts</li>
+            <li class="pl-8 pt-2 text-gray-400">Generic</li>
+            <li class="pl-8 pt-2 text-gray-400">Contact</li>
+            <li class="pl-8 pt-2 text-gray-400">Elements</li>
+            <li class="pl-8 pt-2 text-gray-400">Submenu</li>
+            <li class="pl-4 py-2">Sign Up</li>
+        </ul>
+       </div>
+       <!-- Header Welcome -->
+       <div class="text-center my-4 md:my-12 lg:my-16">
+        <h1 class="text-2xl md:text-5xl text-white font-extralight my-6 ">Alpha</h1>
+        <p class="text-white font-light text-sm my-6 mx-8">Another fine responsive site template freebie by HTML5 UP</p>
+        <div>
+            <button class="border-2 border-transparent bg-white rounded-md text-xs text-gray-600 px-20 py-1.5 md:px-8 md:py-1.5">Sign up</button>
+            <button class="border-2 border-gray-300 rounded-md px-16
+             py-1.5 mb-10 text-xs text-white mx-2 my-3 md:px-8 md:py-1.5 hover:bg-white/15 ">Learn More</button>
+        </div>
+       </div>
+    </div>
+
+    <!-- Info -->
+    <div class="sm:w-[90%] mx-auto text-center md:w-[70%]
+    sm:absolute sm:top-100 sm:left-1/2 sm:transform 
+    sm:-translate-x-1/2 sm:-translate-y-1/4 md:top-[30rem] 
+    border bg-white rounded-md rounded-b-md"> 
+        <h1 class="text-[#676767] font-light text-sm sm:text-2xl mt-10 mx-5 
+        md:mx-28 border-2 border-b-[#e5e5e5] border-transparent pb-5">Introducing the ultimate mobile app
+            for doing stuff with your phone</h1>
+        <p class="text-[#8b8a8a] font-light mx-5 mt-3 mb-3 text-xs sm:text-sm sm:mx-20 sm:mt-6 sm:mb-8">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare
+            adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+        <img src="./images/descimg.jpg" alt="">
+    </div>
+    <!-- Icon -->
+    <div class="text-center bg-[#ffffff]  mx-auto grid
+    mt-8 sm:absolute sm:mt-0 sm:top-[48rem]
+    sm:left-1/2 sm:transform text-xs grid-cols-1 rounded-md
+    sm:-translate-x-1/2 sm:w-[90%] md:w-[70%]
+    md:top-[53rem] md:mt-0 sm:grid-cols-2 md:grid-cols-2 ">
+        <div class="mt-8 ml-8 pl-0 p-8 pt-0 border border-r-[#e5e5e5] border-b-[#e5e5e5] border-transparent">
+            <i class="fa fa-bolt text-white bg-[#e89980] py-5 px-8 mb-5 rounded-full text-2xl" aria-hidden="true"></i>
+            <h1 class="text-[#646464] text-lg sm:text-xl font-extralight mb-2">Magna etiam</h1>
+            <p class="text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+        </div>
+        <div class="mt-8 mr-8 pr-0 p-8 pt-0 border border-l-[#e5e5e5] border-b-[#e5e5e5] border-transparent">
+            <i class="fa fa-area-chart text-white bg-[#7fcdb8] py-5 px-6 mb-5 rounded-full text-2xl" aria-hidden="true"></i>
+            <h1 class="text-[#646464] text-lg sm:text-xl font-extralight mb-2">Ipsum dolor</h1>
+            <p class="text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+        </div>
+        <div class="mb-8 ml-8 pl-0 p-8 pb-0 border  border-r-[#e5e5e5] border-t-[#e5e5e5] border-transparent">
+            <i class="fa fa-cloud text-white bg-[#90b0ba] py-5 px-6 mb-5 rounded-full text-2xl" aria-hidden="true"></i>
+            <h1 class="text-[#646464] text-lg sm:text-xl font-extralight mb-2">Sed feugiat</h1>
+            <p class="text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+        </div>
+        <div class="mb-8 mr-8 p-8 pb-0 pr-0 border border-l-[#e5e5e5] border-t-[#e5e5e5] border-transparent">
+            <i class="fa fa-lock text-white bg-[#e5cb95] py-5 px-7 mb-5 rounded-full text-2xl" aria-hidden="true"></i>
+            <h1 class="text-[#646464] text-lg sm:text-xl font-extralight mb-2">Enim phasellus</h1>
+            <p class="text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+        </div>
+    </div>
+
+    <!-- image -->
+    <div class="text-center mx-auto grid rounded-md
+    mt-8 sm:absolute sm:mt-0 sm:top-[84rem]
+    sm:left-1/2 sm:transform text-xs
+    sm:-translate-x-1/2 sm:w-[90%] md:w-[70%] 
+    md:top-[91rem] md:mt-0 sm:grid-rows-2 md:grid-rows-2 
+    lg:grid-rows-1 lg:grid-cols-2 lg:top-[87rem] lg:mt-0 sm:gap-6">
+        <div class="bg-white">
+            <img class="bg-cover w-[100%]" src="./images/imgsecdiv1.jpg" alt="">
+            <h1 class="text-[#646464] text-lg font-light my-2">Sed lorem adipiscing</h1>
+            <p class="mx-6 mb-4 text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+            <button class="border-2 border-gray-300 rounded-md px-14
+                py-1.5 mb-10 text-xs text-[#646464] mx-2 my-3 md:px-8 md:py-1.5 hover:bg-[#d0d0d0]/15 ">Learn More</button>
+        </div>
+        <div class="bg-white">
+            <img class="bg-cover w-[100%]" src="./images/imgsecdiv2.jpg" alt="">
+            <h1 class="text-[#646464] text-lg font-light my-2">Accumsan integer</h1>
+            <p class="mx-6 mb-4 text-[#888888] font-light">Integer volutpat ante et accumsan commophasellus sed 
+                aliquam feugiat lorem aliquet ut enim rutrum phasellus 
+                iaculis accumsan dolore magna aliquam veroeros.</p>
+            <button class="border-2 border-gray-300 rounded-md px-14
+                py-1.5 mb-10 text-xs text-[#646464] mx-2 my-3 md:px-8 md:py-1.5 hover:bg-[#d0d0d0]/15 ">Learn More</button>
+            </div>
+    </div>
+
+    <!-- contact -->
+    <div class="text-center items-center justify-center bg-[#e89980] text-[#f6d8cd] w-[100%]
+    font-light text-xs pb-8 sm:absolute sm:top-[136rem] md:top-[143rem] lg:top-[110rem]">
+        <h1 class="text-lg pt-6">Sign up for beta access</h1>
+        <p class="my-4">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+        <div>
+            <form class="justify-center items-center text-center sm:flex">
+                <input class="px-3 py-2 rounded bg-white/15 outline-none focus:border-2 border-white 
+                   text-white placeholder:text-white w-48 sm:mx-2 mb-4" 
+                     type="email" placeholder="Email Address"> <br>
+                <button class="border bg-white text-[#cc836c] mb-4 px-5 py-2 rounded-md text-xs w-48 sm:w-24">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="bg-transparent text-[#a8a7a6] text-center w-[100%] sm:absolute sm:top-[150rem] md:top-[155rem] lg:top-[122rem]">
+        <div class="mt-6 text-2xl mb-3">
+            <i class="fa fa-twitter mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-facebook mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-instagram mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-github mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-dribbble mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-official mx-1 hover:text-[#646464] cursor-pointer" aria-hidden="true"></i>
+        </div>
+        <div class="text-xs md:flex mb-20 justify-center">
+            <p class="mx-4">© Untitled. All rights reserved.</p>
+            <p class="px-4 md:border md:border-l-[#a8a7a6] md:border-r-[#696969] border-transparent">Design: <span class="border border-dotted border-b-[#a8a7a6] border-transparent hover:border-transparent cursor-pointer">HTML5 UP</span></p>
+            <p class="mx-4">Demo Images: <span class="border border-dotted border-b-[#696969] border-transparent hover:border-transparent cursor-pointer">Unsplash</span></p>
+        </div>
+    </div>
+
+    <script>
+        function openMenu(){
+            document.getElementById("menubar").style.display = "block";
+        }
+        function closeMenu(){
+            document.getElementById("menubar").style.display = "none";
+        }
+    </script>
+</body>
+</html>
