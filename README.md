@@ -4,7 +4,7 @@ Overview:
 
 The HTML file represents a simple and responsive website template named "Alpha," created by HTML5 UP. The template is designed for showcasing various sections and features with a modern and clean look.
 
-File Structure:
+File Structure: 
 
 .index.html: The main HTML file containing the structure and content of the website.
 
